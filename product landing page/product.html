@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iWatch</title>
+  <link rel="stylesheet" href="product.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsdE1zlT85hb7dd7NyBOhyHRXykBX-Dw3XXA&s" type="image/png">
+  <script lang="javascript">
+    function phone(){
+      var p=document.frm.phone.value;
+      var n1=p;
+      var n,c=0,p;
+      while(p!=0){
+        n=p%10;
+        c=c+1;
+        p=p/10; 
+      }
+      if(n1 <=c){
+        alert("Enter a valid number");
+      }
+    }
+  </script>
+</head>
+<body>
+
+<header id="header">
+  <a href="product.html"><img id="header-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEUAAAD///+jo6Pa2tr5+fnGxsb19fWsrKzBwcGvr68yMjLy8vLk5OTd3d2UlJS0tLSampooKCi6urpjY2N0dHTR0dGMjIwjIyPs7OxpaWl7e3tSUlKCgoI/Pz8PDw9YWFg5OTlHR0cZGRlFRUUWFhYtLS1YXtmtAAADs0lEQVR4nO3ca1eyQBQFYMYrKohWmFlZWf3/v/i+eEkYZwRh4zm69vM11ursxTDDXDAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiOgy74sn6RLaNOsaY/rSVbTms2+27jXhzz6fMaF0Ke1YmD8P0rW0Ij0GNB3pYlqwGeQCmpV0OXjPvXxAI11OC4oBl9Ll4EWFgGYoXQ/cqBjQfEoXhPZlBYylC4JbWglfpAtCW1kBI+mC4CZWwi/pgtAerYCJdEFw/WLAOxwLrVv4LF0PnNVI7+4hDIJOIeCrdDktCHP5ep/S1bQhPgZMpWtpx99oOLi7V5m9fcLlm3QhrckmTt3hu3QZVM36dTHrdKaPa/8lm9UwjKMoDkfT7+sVhrEKjysVg+TRdcnHqLAcZbqzaxdZ3/jB2Ebj4iXz4ckl2QDyIVPwheapq3gT5brPt9h5SXbVDbRW583ZCbebTC+ndzhP+wL42J7g2nolfzdmMpcOcc5Laf1VKH4hX5RXX4naDgcV0Bil/Q2miW71pLM4veMC/h/+pdO4DMrrrizeSKdxOD/KXUbllukrMKDOHdOovPCqnO/p4oD9qNLzQ7hbqPIZDIJvWECtu4kJLOGZFQFRsIBT6SQeH6iAOt/WgtOzB7VpvYW4nlQ6iBcqoNpDirBZhdLBHjjzlQ7idWZ57SJ6N/VREye1j2HgXgK+3Eg6iBdqsFD60h2cnlSrS+/WTNk6NxMe3H8r1XvGDdXT6B0tuqCEE+kgXmF58dVIB/GCrWHoXCgN7ON4Dajd/31DJVTbTMewhAvpKD6whGp7U9RLjTFaT/TBhgu1T+IMl1DpuVrkBrfSJVNgQqXbh/3ywqtTeZpmikyoctl0DU2ockkKNQnei8bl//LKYC/fB+o+Dn5GJ9T3juo99VubtoERdy7xQDrRCXRAfT/pgjuOsaPv1QY3Dd4aSOdxQO1A7WjrZzLI04kK+5kMamE4o3MLA3kTpbN44J5Erftsc1RAtYe/YKe/NE4Q98q/aqpC6xnTjP27HvWo/ikJxMqptmmTpXk71dxGM1+NE/5IRyjTdP1bcT960OzlTd+00KHJo6h2e62gyccXqgeKo/qjosoFfZe6G/s39Isunoi9fjLsDBPfPs4NBXQ21DS3g72eOtZXb6aJ7syLOxm9k0n7r3V2uqv1iye/3Bpx6h7Gp8cjf9FNtdA/T0k8WabJmfMVm8UoTPsPs9/rFUVEREREREREREREREREREREREREREREREREREREpN4/ezopYlmqsTcAAAAASUVORK5CYII=" alt="Product Logo"></a>
+  <nav id="nav-bar">
+    <a class="nav-link" href="#section1">Home</a>
+    <a class="nav-link" href="#section2">About</a>
+    <a class="nav-link" href="#section3">Product</a>
+    <a class="nav-link" href="#section4">Contact</a>
+  </nav>
+</header>
+
+<div class="section" id="section1">
+  <h1 id="mainhead">Apple Watch Series 9</h1>
+  <p  id="sechead">Ways to save. Find what works for you.</p>
+  <img class="mainimg" src="https://9to5mac.com/wp-content/uploads/sites/6/2023/09/apple-watch-double-tap.jpg?quality=82&strip=all">
+  <div id="side">
+  <img id="sideimg" src="https://www.indiaistore.com/files/uploads/products/apple-watch-series-9/images/hero_small_2x.png?1693967175059">
+  <img id="sideimg" src="https://www.apple.com/newsroom/videos/apple-watch-s9-sip/posters/Apple-Watch-S9-SiP-230912.jpg.large_2x.jpg">
+  <img id="sideimg" src="https://www.apple.com/v/apple-watch-series-9/d/images/overview/hero/hero_endframe__b8te205r9u02_large.jpg">
+  </div>
+  <a href="#"><button><i class="fas fa-shopping-cart"></i>Buy now</button></a>
+</div>
+
+<div class="section" id="section2">
+  <h2><b>SPECIFICATION</b></h2>
+  <section id="features" class="features">
+    <div class="features-container1">
+    <div class="feature">
+    <i class="fas fa-leaf"></i>
+    <p>Carbon-neutral</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-clock"></i>
+    <p>Always-On display</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-wifi"></i> 
+    <p>Faster on-device Siri</p>
+  </div>
+    </div>
+    <div class="features-container2">
+  <div class="feature">
+    <i class="fas fa-thermometer-half"></i>
+    <p>Temperature sensing8</p>
+  </div>
+  <div class="feature">
+    <i class="fas fa-tint"></i>
+    <p>Blood Oxygen app7</p>
+  </div>
+  <div class="feature">
+    <i class="fas fa-battery-half"></i>
+    <p>Up to 18 hours17</p>
+  </div>
+</div>
+  </section>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Nvb_Kta7v6U?si=-X2BdoXbs0fthBFt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div class="section" id="section3">
+  <h2>SIMILAR PRODUCTS</h2>
+  <div id="side">
+    <a href="#"><img id="sideimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8fPAx8DO-3fjnms3XyH9vZK_gcTeLuPQNzqlGj8wYdynV67uR-XKb02kgAinebidoVr0&usqp=CAU"></a>
+    <a href="#"><img id="sideimg" src="https://www.werd.com/wp-content/uploads/2022/07/best-apple-watch-straps.jpg"></a>
+    <a href="#"><img id="sideimg" src="https://i.ytimg.com/vi/Jvd46MG3gsk/maxresdefault.jpg"></a>
+    </div>
+</div>
+<div class="section" id="section4">
+  <h2>Contact Us</h2>
+  <form id="form" action="#" name="frm">
+    <input type="email" id="email" placeholder="Enter your email address" name="email" required>
+    <input type="number" id="phone" placeholder="Enter your number" name="phone" required>
+    <input type="submit" id="submit" value="Submit" onclick="phone()">
+  </form>
+</div>
+<hr>
+<footer>
+  <p>Copyright © 2024 Apple Inc. All rights reserved.</p>
+  <div class="social-icons">
+    <a href="https://www.facebook.com" target="_blank" class="social-icon">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.instagram.com" target="_blank" class="social-icon">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.twitter.com" target="_blank" class="social-icon">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </div>
+   <p><a href="#">Privacy policy</a> | <a href="#">Terms of Use</a> | <a href="#">Sales Policy</a> |</p>
+</footer>
+
+</body>
+</html>
